@@ -1,3 +1,67 @@
+body {
+  font-family: "Oswald", "Open Sans", sans-serif;
+}
 
+footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #16FFBD;
+}
+footer span h3 {
+  text-align: center;
+  font-size: medium;
+}
+footer span h3 strong {
+  text-decoration: line-through;
+}
+footer span i {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer ul li {
+  color: #16FFBD;
+}
+footer ul li:nth-child(1) {
+  text-decoration: line-through;
+  color: #FE8CAB;
+}
+footer text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around flex-start;
+}
+footer text div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer text div h3 {
+  color: #fff;
+}
+footer text div p {
+  color: #16FFBD;
+}
+footer text div section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer text div section button {
+  size: 20px;
+  background-color: #000;
+  border: none;
+}
 
 /*# sourceMappingURL=style.css.map */
