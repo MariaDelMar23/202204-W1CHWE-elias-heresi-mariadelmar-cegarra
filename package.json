@@ -1,23 +1,24 @@
 {
   "name": "challenge-weekend",
   "version": "1.0.0",
-  "description": "Este challenge en parejas consiste en maquetar en HTML y CSS (nada de JS) la web de [Panic](https://www.figma.com/file/2GVUw2kvmCTGtk80gopdtL/HTML_Challenge), a partir del figma proporcionado: versión mobile y versión desktop.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "sass sass:css --watch"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MariaDelMar23/202204-W1CHWE-elias-heresi-mariadelmar-cegarra.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MariaDelMar23/202204-W1CHWE-elias-heresi-mariadelmar-cegarra/issues"
   },
   "homepage": "https://github.com/MariaDelMar23/202204-W1CHWE-elias-heresi-mariadelmar-cegarra#readme",
-  "devDependencies": {
+  "dependencies": {
+    "bootstrap": "^5.1.3",
     "sass": "^1.50.0"
   }
 }
