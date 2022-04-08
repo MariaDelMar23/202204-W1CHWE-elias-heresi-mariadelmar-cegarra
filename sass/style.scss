@@ -1,0 +1,20 @@
+.header {
+  padding: 10px;
+
+  &__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  &__logos {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.general-container {
+  background-color: rgba(21, 255, 188, 255);
+  font-family: "Oswald", "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
