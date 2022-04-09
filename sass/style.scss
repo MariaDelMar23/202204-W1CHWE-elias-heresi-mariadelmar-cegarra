@@ -59,19 +59,32 @@ footer {
       padding: 32px;
     }
   }
-  ul {
+  nav {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 25px;
-    li {
+    a {
+      text-decoration: none;
       font-size: x-large;
       text-align: center;
       color: #fff;
+      &:visited {
+        color: #fff;
+      }
+      &:active {
+        color: #fff;
+      }
       &:nth-child(1) {
         text-decoration: line-through;
         color: #fe8cab;
+        &:visited {
+          color: #fe8cab;
+        }
+        &:active {
+          color: #fe8cab;
+        }
       }
     }
   }
@@ -128,6 +141,31 @@ footer {
   }
 }
 
+
+.welcome-video {
+  .row {
+    img {
+      width: 100vw;
+      padding: 0;
+    }
+  }
+}
+
+.home-text {
+  text-align: center;
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+    padding-top: 80px;
+  }
+  i {
+    text-align: center;
+    font-size: 11px;
+    padding: 32px;
+  }
+  p {
+
 .main-text {
   &__section {
     padding-top: 70px;
@@ -143,5 +181,6 @@ footer {
     &--list {
       justify-content: space-around;
     }
+
   }
 }
