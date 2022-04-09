@@ -125,3 +125,16 @@ footer {
     padding: 0;
   }
 }
+
+.main-text {
+  &__section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    ul {
+      li {
+        display: inline;
+        margin: 5px;
+      }
+    }
+  }
+}
