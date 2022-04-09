@@ -141,7 +141,6 @@ footer {
   }
 }
 
-
 .welcome-video {
   .row {
     img {
@@ -164,7 +163,7 @@ footer {
     font-size: 11px;
     padding: 32px;
   }
-  p {
+}
 
 .main-text {
   &__section {
@@ -181,6 +180,5 @@ footer {
     &--list {
       justify-content: space-around;
     }
-
   }
 }
