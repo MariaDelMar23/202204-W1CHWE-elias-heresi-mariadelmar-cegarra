@@ -141,6 +141,7 @@ footer {
   }
 }
 
+
 .welcome-video {
   .row {
     img {
@@ -164,5 +165,22 @@ footer {
     padding: 32px;
   }
   p {
+
+.main-text {
+  &__section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    ul {
+      align-content: center;
+      li {
+        display: inline;
+        margin: 5px;
+      }
+    }
+
+    &--list {
+      justify-content: space-around;
+    }
+
   }
 }
