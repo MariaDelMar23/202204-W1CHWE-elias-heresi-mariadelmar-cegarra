@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: "Oswald", "Open Sans", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   width: 100vw;
 }
 
@@ -43,14 +43,20 @@ footer {
     justify-content: center;
     color: #16ffbd;
     h3 {
+      font-weight: 500;
       text-align: center;
-      font-size: medium;
+      font-size: x-large;
+      padding-top: 100px;
       strong {
+        font-weight: lighter;
         text-decoration: line-through;
+        text-decoration-color: #fe8cab;
       }
     }
     i {
       text-align: center;
+      font-size: 11px;
+      padding: 32px;
     }
   }
   ul {
@@ -58,11 +64,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    padding: 0;
+    padding: 25px;
     li {
+      font-size: x-large;
       text-align: center;
-      color: #16ffbd;
+      color: #fff;
       &:nth-child(1) {
         text-decoration: line-through;
         color: #fe8cab;
@@ -75,46 +81,42 @@ footer {
     justify-content: space-around;
     padding: 0;
     div {
-      h3 {
-        color: #fff;
-        text-align: center;
+      .footer-text {
+        padding: 10px;
+        h3 {
+          font-size: 17px;
+          padding: 20px;
+          font-weight: 500;
+          color: #fff;
+          text-align: center;
+        }
+        p {
+          color: #16ffbd;
+          text-align: center;
+        }
       }
-      p {
-        color: #16ffbd;
-        text-align: center;
-      }
+
       section {
+        padding: 20px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         button {
           size: 20px;
+          padding-right: 12px;
+          padding-left: 12px;
           background-color: #000;
           border: none;
+          h3 {
+            font-weight: 500;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+          }
         }
       }
     }
   }
-}
-.header {
-  padding: 10px;
-
-  &__navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;
-  }
-  &__logos {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.general-container {
-  background-color: rgba(21, 255, 188, 255);
-  font-family: "Oswald", "Open Sans", sans-serif;
-  letter-spacing: 2px;
 }
 
 .main-images {
