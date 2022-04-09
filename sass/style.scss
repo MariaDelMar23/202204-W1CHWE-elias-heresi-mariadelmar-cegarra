@@ -83,3 +83,12 @@ footer {
   font-family: "Oswald", "Open Sans", sans-serif;
   letter-spacing: 2px;
 }
+
+.main-images {
+  margin: 0;
+
+  &__image {
+    margin: 0;
+    padding: 0;
+  }
+}

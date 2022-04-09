@@ -84,4 +84,12 @@ footer text div section button {
   letter-spacing: 2px;
 }
 
+.main-images {
+  margin: 0;
+}
+.main-images__image {
+  margin: 0;
+  padding: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
