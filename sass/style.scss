@@ -107,6 +107,9 @@ footer {
           color: #16ffbd;
           text-align: center;
         }
+        &:nth-child(3){
+          padding-bottom: 125px;
+        }
       }
 
       section {
@@ -134,7 +137,6 @@ footer {
 
 .main-images {
   margin: 0;
-
   &__image {
     margin: 0;
     padding: 0;
@@ -167,10 +169,16 @@ footer {
 
 .main-text {
   &__section {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 70px;
+    h2 {
+      padding: 40px;
+    }
     ul {
       align-content: center;
+      justify-content: center;
+      font-size: 19px;
+      padding: 11px;
       li {
         display: inline;
         margin: 5px;
@@ -179,6 +187,16 @@ footer {
 
     &--list {
       justify-content: space-around;
+    }
+    h3 {
+      padding-bottom: 30px;
+      padding-top: 0;
+      font-size: 33px;
+    }
+    p{
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 19px;
     }
   }
 }
