@@ -4,6 +4,14 @@
   }
 }
 
+@media (max-width: 720px) {
+  section {
+    &.disappearing-image {
+      display: none;
+    }
+  }
+}
+
 body {
   font-family: "Oswald", "Open Sans", sans-serif;
   box-sizing: border-box;
@@ -260,5 +268,11 @@ section.home-picture {
   }
   &--list {
     justify-content: space-around;
+  }
+}
+
+.disappearing-image {
+  &__image {
+    width: 100vw;
   }
 }
