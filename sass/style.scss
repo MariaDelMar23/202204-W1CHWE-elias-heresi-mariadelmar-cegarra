@@ -4,6 +4,14 @@
   }
 }
 
+@media (max-width: 720px) {
+  section {
+    &.disappearing-image {
+      display: none;
+    }
+  }
+}
+
 body {
   font-family: "Oswald", "Open Sans", sans-serif;
   box-sizing: border-box;
@@ -116,7 +124,7 @@ footer {
           color: #16ffbd;
           text-align: center;
         }
-        &:nth-child(3){
+        &:nth-child(3) {
           padding-bottom: 125px;
         }
       }
@@ -149,6 +157,9 @@ footer {
   &__image {
     margin: 0;
     padding: 0;
+  }
+  div {
+    width: 100vw;
   }
 }
 
@@ -254,10 +265,14 @@ section.home-picture {
         margin: 5px;
       }
     }
-
   }
   &--list {
     justify-content: space-around;
+  }
+}
 
+.disappearing-image {
+  &__image {
+    width: 100vw;
   }
 }
