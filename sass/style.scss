@@ -3,24 +3,29 @@
     display: none;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 601px) {
   section {
     &.disappearing-image {
       display: none;
     }
   }
-}
-
-@media (max-width: 720px) {
+  .welcome-video {
+    display: none;
+  }
   .header-desktop {
     display: none;
   }
+  
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   .header-mobile {
     display: none;
   }
+  .welcome-image {
+    display: none;
+  }
+  
 }
 
 body {
@@ -37,8 +42,8 @@ body {
 }
 
 .header {
-  padding: 10px;
   &-mobile {
+    padding: 10px;
     &__navigation {
       display: flex;
       flex-direction: row;
@@ -48,8 +53,11 @@ body {
       a:visited {
         color: #000;
       }
-      :active {
+      &:active {
         color: #000;
+      }
+      span {
+        padding: 10px;
       }
     }
     &__logos {
@@ -58,6 +66,7 @@ body {
     }
   }
   &-desktop {
+    padding: 10px;
     &__navigation {
       display: flex;
       flex-direction: row;
@@ -66,11 +75,17 @@ body {
       font-size: 20px;
       color: #000;
       text-decoration: none;
-      a:visited {
+      a {
+        padding: 20px;
+        text-decoration: none;
         color: #000;
-      }
-      :active {
-        color: #000;
+        &:hover {
+          color: #fe8cab;
+          text-decoration: line-through;
+        }
+        &:visited {
+          color: #000;
+        }
       }
     }
     &__logos {
@@ -198,10 +213,11 @@ footer {
 }
 
 .welcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   &-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
     button {
       text-align: center;
       position: absolute;
@@ -223,31 +239,32 @@ footer {
       width: 100vw;
       padding: 0;
     }
-  }
-  &-video{
-    button {
-      text-align: center;
-      position: absolute;
-      background: transparent;
-      width: 150px;
-      height: 200px;
-      border: none;
-      img {
-        width: 70px;
-      }
-      span {
-        letter-spacing: 4px;
+    &-video {
+      width: 100vw;
+      button {
         text-align: center;
-        color: #16ffbd;
-        font-size: 35px;
+        position: absolute;
+        background: transparent;
+        width: 150px;
+        height: 200px;
+        border: none;
+        img {
+          width: 70px;
+        }
+        span {
+          letter-spacing: 4px;
+          text-align: center;
+          color: #16ffbd;
+          font-size: 35px;
+        }
+      }
+      img {
+        width: 100vw;
+        padding: 0;
       }
     }
-    img {
-      width: 100vw;
-      padding: 0;
   }
 }
-
 
 .home-text {
   text-align: center;
