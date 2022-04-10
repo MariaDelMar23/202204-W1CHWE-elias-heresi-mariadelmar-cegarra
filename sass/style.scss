@@ -32,7 +32,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     font-size: 20px;
-    color:#000;
+    color: #000;
     a:visited {
       color: #000;
     }
@@ -228,12 +228,15 @@ footer {
 }
 section.home-picture {
   margin: 0;
+  width: 100%;
+  div {
+    width: 100%;
+  }
   figure {
     margin: 0;
-    width: 100%;
     padding-top: 110px;
     img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       vertical-align: middle;
       padding-top: 75px;
