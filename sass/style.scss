@@ -3,7 +3,6 @@
     display: none;
   }
 }
-
 @media (max-width: 720px) {
   section {
     &.disappearing-image {
@@ -33,6 +32,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     font-size: 20px;
+    color:#000;
     a:visited {
       color: #000;
     }
@@ -268,9 +268,19 @@ section.home-picture {
         margin: 5px;
       }
     }
-  }
-  &--list {
-    justify-content: space-around;
+    &--list {
+      justify-content: space-around;
+    }
+    h3 {
+      padding-bottom: 30px;
+      padding-top: 0;
+      font-size: 33px;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 19px;
+    }
   }
 }
 
