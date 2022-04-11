@@ -45,17 +45,23 @@
         </nav>
       </header>
       <main>
-        <section class="welcome-image">
+        <section class="welcome-image" id="welcome-image">
+          <div>
+            <img src="images\work\media\media03.jpg" alt="Pink car" />
+          </div>
           <button>
-            <img src="images\home\media\play.png" alt="Play button" />
+              <img src="images\home\media\play.png" alt="Play button" />
             <span>Lorem<br />Lorem</span>
           </button>
-          <img src="images\work\media\media03.jpg" alt="Pink car" />
         </section>
         <section class="welcome-video" id="welcome-video">
-          <video src="images\home\media\mp4.mp4"></video>
+          <div>
+            <video id="videoPlayer" controls loop>
+              <source src="images\home\media\mp4.mp4" type="video/mp4" />
+            </video>
+          </div>
           <button>
-            <img src="images\home\media\play.png" alt="Play button" />
+              <img src="images\home\media\play.png" alt="Play button" />
             <span>VIEW SHOWREEL</span>
           </button>
         </section>
@@ -75,27 +81,37 @@
         </section>
 
         <section class="home-picture container p-0">
-          <div class="row row-no-gutters">
-
+          <div class="row row-no-gutters wrapper">
             <figure class="main-images col-12 col-md-4 p-0">
-              <img src="images\work\media\media04.jpg" alt="Girl with test" />
+              <div>
+                <img src="images\work\media\media04.jpg" alt="Girl with test" />
+              </div>
               <figcaption>Lorem ipsum dolor sit amet,</figcaption>
             </figure>
             <figure class="main-images col-12 col-md-4 p-0">
-              <img src="images\work\media\media05.jpg" alt="Busy supermarket" />
+              <div>
+                <img
+                  src="images\work\media\media05.jpg"
+                  alt="Busy supermarket"
+                />
+              </div>
               <figcaption>Lorem ipsum dolor sit amet, consectetur</figcaption>
             </figure>
             <figure class="main-images col-12 col-md-4 p-0">
-              <img
-                src="images\work\media\media06.jpg"
-                alt="Woman in the street"
-              />
+              <div>
+                <img
+                  src="images\work\media\media06.jpg"
+                  alt="Woman in the street"
+                />
+              </div>
               <figcaption>Lorem ipsum</figcaption>
             </figure>
           </div>
         </section>
       </main>
-      <footer id="footer">
+      <div class="footer-inclination">
+      </div>
+      <footer class="footer" id="footer">
         <span>
           <h3>Lorem <strong> ipsum </strong> dolor</h3>
           <i class="fa-solid fa-xmark"></i>
