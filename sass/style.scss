@@ -27,7 +27,7 @@
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 600px) {
   .desktop-visible {
     display: block;
     margin: 0 auto;
@@ -447,6 +447,25 @@ main.container {
   }
 }
 
+.disappearing-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skewY(-10deg);
+  div {
+    height: 500px;
+    overflow: hidden;
+    img {
+      transform: skewY(10deg);
+      position: relative;
+     height: 149vw;
+    top: -41vw;
+    right: 58vw;
+    width: 200vw;
+    }
+  }
+}
+
 .welcome-image {
   display: flex;
   justify-content: center;
@@ -466,23 +485,6 @@ main.container {
   }
 }
 
-.disappearing-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: skewY(-10deg);
-  div {
-    height: 500px;
-    overflow: hidden;
-    img {
-      transform: skewY(10deg);
-      position: relative;
-      top: -185px;
-      right: 0;
-      width: 100vw;
-    }
-  }
-}
 
 .footer-inclination {
   height: 462px;
