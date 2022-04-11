@@ -331,6 +331,11 @@ section.home-picture {
       vertical-align: middle;
       padding-top: 75px;
       padding-top: 20px;
+      transition: 0.5s;
+      &:hover{
+        transform: scale(1.3) skewY(10deg);
+        filter: brightness(70%);
+      }
     }
     figcaption {
       text-align: center;
