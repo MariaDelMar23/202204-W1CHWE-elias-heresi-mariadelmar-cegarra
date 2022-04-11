@@ -1,6 +1,90 @@
+@use "icons" as i;
+
 @media (max-width: 600px) {
   .facet_sidebar {
     display: none;
+  }
+}
+
+.icon {
+  background: url("../images/home/media/media01.svg");
+  display: inline-block;
+  &__facebook {
+    width: 52px;
+    height: 52px;
+    &--green {
+      background-position: 0 0;
+    }
+    &--black {
+      background-position: 0 -54px;
+    }
+    &--red {
+      background-position: 0 -108px;
+    }
+  }
+
+  &__twitter {
+    width: 52px;
+    height: 52px;
+    &--green {
+      background-position: -54px 0;
+    }
+    &--black {
+      background-position: -54px -54px;
+    }
+    &--red {
+      background-position: -54px -108px;
+    }
+  }
+
+  &__vimeo {
+    width: 52px;
+    height: 52px;
+    &--green {
+      background-position: -108px 0;
+    }
+    &--black {
+      background-position: -108px -54px;
+    }
+    &--red {
+      background-position: -108px -108px;
+    }
+  }
+
+  &__instagram {
+    width: 52px;
+    height: 52px;
+    &--green {
+      background-position: -243px 0;
+    }
+    &--black {
+      background-position: -243px -54px;
+    }
+    &--red {
+      background-position: -243px -108px;
+    }
+  }
+
+  &__hamburger {
+    width: 20px;
+    height: 20px;
+    &--black {
+      background-position: -163px -1px;
+    }
+    &--pink {
+      background-position: -163px -25px;
+    }
+  }
+
+  &__cross {
+    width: 22px;
+    height: 22px;
+    &--black {
+      background-position: -186px 0;
+    }
+    &--pink {
+      background-position: -186px -24px;
+    }
   }
 }
 
